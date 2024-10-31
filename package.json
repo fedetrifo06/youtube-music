@@ -5,14 +5,14 @@
   "description": "YouTube Music Desktop App - including custom plugins",
   "main": "./dist/main/index.js",
   "license": "MIT",
-  "repository": "th-ch/youtube-music",
+  "repository": "fedetrifo06/youtube-music",
   "author": {
-    "name": "th-ch",
-    "email": "th-ch@users.noreply.github.com",
-    "url": "https://github.com/th-ch/youtube-music"
+    "name": "fedetrifo06",
+    "email": "fedetrifo06@users.noreply.github.com",
+    "url": "https://github.com/fedetrifo06/youtube-music"
   },
   "build": {
-    "appId": "com.github.th-ch.youtube-music",
+    "appId": "com.github.fedetrifo06.youtube-music",
     "productName": "YouTube Music",
     "files": [
       "!*",
