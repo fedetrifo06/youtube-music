@@ -1,7 +1,7 @@
 {
   "name": "youtube-music",
   "productName": "YouTube Music",
-  "version": "3.6.4",
+  "version": "3.6.5",
   "description": "YouTube Music Desktop App - including custom plugins",
   "main": "./dist/main/index.js",
   "license": "MIT",
@@ -142,11 +142,15 @@
         "libxtst6",
         "xdg-utils",
         "libatspi2.0-0",
+        "libuuid",
         "libasound2",
         "libgbm1"
       ]
     },
     "rpm": {
+      "depends": [
+        "/usr/lib64/libuuid.so"
+      ],
       "fpm": [
         "--rpm-rpmbuild-define",
         "_build_id_links none"
